@@ -56,8 +56,8 @@ body{
 @media (min-width: 320px) and (max-width: 768px) {
     .main{
         margin-top: 15%;
-        height: auto;
-        width: 90vw;
+        height: 70%;
+        width: 100%;
         
     }
     #myInput{
@@ -76,8 +76,8 @@ body{
     }
     
     #disOutput{
-        height: 35vh;
-        width: 20vw;
+        height: 40vh;
+        width: 30vw;
     }
   }
 
