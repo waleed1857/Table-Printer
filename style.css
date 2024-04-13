@@ -81,7 +81,8 @@ Media Queries
 
     #disOutput {
         /*Heigth not recommended.*/
-        width: 50%;
+        height: 40vh;
+        width: 70%;
     }
 
 }
