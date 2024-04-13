@@ -53,58 +53,27 @@ body{
 }
 
 
-@media (min-width: 320px) and (max-width: 768px) {
-    .main{
-        margin-top: 15%;
-        height: 70%;
-        width: 100%;
-        
-    }
-    #myInput{
-        display: flex;
-        align-items: center;
-        border-radius: 5px;
-        height: 30px;
-        width: 40vw;
-    }
-    #myOutput{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 30px;
-        width: 15vw;
-    }
-    
-    #disOutput{
-        height: 40vh;
-        width: 30vw;
-    }
-  }
-
-
+/*
+********
+********
+Media Queries
+********
+********
+*/
 @media screen and (max-width: 768px) {
     .main{
-        margin-top: 15%;
-        width: 30vw;
-        height: 60vh;
-    }
-    #myInput{
-        display: flex;
-        align-items: center;
-        border-radius: 5px;
-        width: 20vw;
-        height: 30px;
+        margin-left: 20%;
+        margin-top: 25%;
+        height: 90%;
+        width: 60%;
+        padding: 15px;
     }
     #myOutput{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 30px;
-        width: 9vw;
-    }
-    
+    width: 15vw;
+}
     #disOutput{
-        height: 35vh;
-        width: 20vw;
-    }
-  }
+    /*Heigth not recommended.*/
+    width: 45%;
+}
+    
+}
