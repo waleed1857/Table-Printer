@@ -1,14 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: rgb(141, 141, 141);
 }
 
-.main{
+.main {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,7 +22,7 @@ body{
     margin-top: 5%;
 }
 
-#myInput{
+#myInput {
     display: flex;
     align-items: center;
     border-radius: 5px;
@@ -30,7 +30,7 @@ body{
     padding-left: 5px;
 }
 
-#myOutput{
+#myOutput {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,12 +38,13 @@ body{
     height: 30px;
     width: 5vw;
 }
-#myOutput:hover{
+
+#myOutput:hover {
     background-color: darkgrey;
-    color: white;  
+    color: white;
 }
 
-#disOutput{
+#disOutput {
     color: black;
     background-color: whitesmoke;
     border: 1px solid black;
@@ -61,19 +62,26 @@ Media Queries
 ********
 */
 @media screen and (max-width: 768px) {
-    .main{
+    .main {
         margin-left: 20%;
         margin-top: 25%;
         height: 90%;
         width: 60%;
         padding: 15px;
     }
-    #myOutput{
-    width: 15vw;
-}
-    #disOutput{
-    /*Heigth not recommended.*/
-    width: 45%;
-}
-    
+
+    #myInput {
+        margin: 10px 0px 10px 0px;
+    }
+
+    #myOutput {
+        width: 15vw;
+        margin: 10px 0px 10px 0px;
+    }
+
+    #disOutput {
+        /*Heigth not recommended.*/
+        width: 50%;
+    }
+
 }
